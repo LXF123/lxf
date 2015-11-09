@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6C6B351BF036CD004DAA6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C6B341BF036CD004DAA6E /* main.m */; };
+		3F6C6B381BF036CD004DAA6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C6B371BF036CD004DAA6E /* AppDelegate.m */; };
+		3F6C6B3B1BF036CD004DAA6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C6B3A1BF036CD004DAA6E /* ViewController.m */; };
+		3F6C6B3E1BF036CD004DAA6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6C6B3C1BF036CD004DAA6E /* Main.storyboard */; };
+		3F6C6B401BF036CD004DAA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6C6B3F1BF036CD004DAA6E /* Assets.xcassets */; };
+		3F6C6B431BF036CD004DAA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6C6B411BF036CD004DAA6E /* LaunchScreen.storyboard */; };
+		3F6C6B4E1BF036CD004DAA6E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C6B4D1BF036CD004DAA6E /* ____Tests.m */; };
+		3F6C6B591BF036CD004DAA6E /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C6B581BF036CD004DAA6E /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6C6B4A1BF036CD004DAA6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6C6B281BF036CD004DAA6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6C6B2F1BF036CD004DAA6E;
+			remoteInfo = "远程仓库";
+		};
+		3F6C6B551BF036CD004DAA6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6C6B281BF036CD004DAA6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6C6B2F1BF036CD004DAA6E;
+			remoteInfo = "远程仓库";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F6C6B301BF036CD004DAA6E /* 远程仓库.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "远程仓库.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6C6B341BF036CD004DAA6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F6C6B361BF036CD004DAA6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F6C6B371BF036CD004DAA6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F6C6B391BF036CD004DAA6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F6C6B3A1BF036CD004DAA6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F6C6B3D1BF036CD004DAA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F6C6B3F1BF036CD004DAA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6C6B421BF036CD004DAA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F6C6B441BF036CD004DAA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6C6B491BF036CD004DAA6E /* 远程仓库Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "远程仓库Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6C6B4D1BF036CD004DAA6E /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		3F6C6B4F1BF036CD004DAA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6C6B541BF036CD004DAA6E /* 远程仓库UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "远程仓库UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6C6B581BF036CD004DAA6E /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		3F6C6B5A1BF036CD004DAA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6C6B2D1BF036CD004DAA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6C6B461BF036CD004DAA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6C6B511BF036CD004DAA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6C6B271BF036CD004DAA6E = {
+			isa = PBXGroup;
+			children = (
+				3F6C6B321BF036CD004DAA6E /* 远程仓库 */,
+				3F6C6B4C1BF036CD004DAA6E /* 远程仓库Tests */,
+				3F6C6B571BF036CD004DAA6E /* 远程仓库UITests */,
+				3F6C6B311BF036CD004DAA6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6C6B311BF036CD004DAA6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6C6B301BF036CD004DAA6E /* 远程仓库.app */,
+				3F6C6B491BF036CD004DAA6E /* 远程仓库Tests.xctest */,
+				3F6C6B541BF036CD004DAA6E /* 远程仓库UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6C6B321BF036CD004DAA6E /* 远程仓库 */ = {
+			isa = PBXGroup;
+			children = (
+				3F6C6B361BF036CD004DAA6E /* AppDelegate.h */,
+				3F6C6B371BF036CD004DAA6E /* AppDelegate.m */,
+				3F6C6B391BF036CD004DAA6E /* ViewController.h */,
+				3F6C6B3A1BF036CD004DAA6E /* ViewController.m */,
+				3F6C6B3C1BF036CD004DAA6E /* Main.storyboard */,
+				3F6C6B3F1BF036CD004DAA6E /* Assets.xcassets */,
+				3F6C6B411BF036CD004DAA6E /* LaunchScreen.storyboard */,
+				3F6C6B441BF036CD004DAA6E /* Info.plist */,
+				3F6C6B331BF036CD004DAA6E /* Supporting Files */,
+			);
+			path = "远程仓库";
+			sourceTree = "<group>";
+		};
+		3F6C6B331BF036CD004DAA6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F6C6B341BF036CD004DAA6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F6C6B4C1BF036CD004DAA6E /* 远程仓库Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6C6B4D1BF036CD004DAA6E /* ____Tests.m */,
+				3F6C6B4F1BF036CD004DAA6E /* Info.plist */,
+			);
+			path = "远程仓库Tests";
+			sourceTree = "<group>";
+		};
+		3F6C6B571BF036CD004DAA6E /* 远程仓库UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6C6B581BF036CD004DAA6E /* ____UITests.m */,
+				3F6C6B5A1BF036CD004DAA6E /* Info.plist */,
+			);
+			path = "远程仓库UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6C6B2F1BF036CD004DAA6E /* 远程仓库 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6C6B5D1BF036CD004DAA6E /* Build configuration list for PBXNativeTarget "远程仓库" */;
+			buildPhases = (
+				3F6C6B2C1BF036CD004DAA6E /* Sources */,
+				3F6C6B2D1BF036CD004DAA6E /* Frameworks */,
+				3F6C6B2E1BF036CD004DAA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "远程仓库";
+			productName = "远程仓库";
+			productReference = 3F6C6B301BF036CD004DAA6E /* 远程仓库.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6C6B481BF036CD004DAA6E /* 远程仓库Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6C6B601BF036CD004DAA6E /* Build configuration list for PBXNativeTarget "远程仓库Tests" */;
+			buildPhases = (
+				3F6C6B451BF036CD004DAA6E /* Sources */,
+				3F6C6B461BF036CD004DAA6E /* Frameworks */,
+				3F6C6B471BF036CD004DAA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6C6B4B1BF036CD004DAA6E /* PBXTargetDependency */,
+			);
+			name = "远程仓库Tests";
+			productName = "远程仓库Tests";
+			productReference = 3F6C6B491BF036CD004DAA6E /* 远程仓库Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F6C6B531BF036CD004DAA6E /* 远程仓库UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6C6B631BF036CD004DAA6E /* Build configuration list for PBXNativeTarget "远程仓库UITests" */;
+			buildPhases = (
+				3F6C6B501BF036CD004DAA6E /* Sources */,
+				3F6C6B511BF036CD004DAA6E /* Frameworks */,
+				3F6C6B521BF036CD004DAA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6C6B561BF036CD004DAA6E /* PBXTargetDependency */,
+			);
+			name = "远程仓库UITests";
+			productName = "远程仓库UITests";
+			productReference = 3F6C6B541BF036CD004DAA6E /* 远程仓库UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6C6B281BF036CD004DAA6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					3F6C6B2F1BF036CD004DAA6E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3F6C6B481BF036CD004DAA6E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3F6C6B2F1BF036CD004DAA6E;
+					};
+					3F6C6B531BF036CD004DAA6E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3F6C6B2F1BF036CD004DAA6E;
+					};
+				};
+			};
+			buildConfigurationList = 3F6C6B2B1BF036CD004DAA6E /* Build configuration list for PBXProject "远程仓库" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6C6B271BF036CD004DAA6E;
+			productRefGroup = 3F6C6B311BF036CD004DAA6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6C6B2F1BF036CD004DAA6E /* 远程仓库 */,
+				3F6C6B481BF036CD004DAA6E /* 远程仓库Tests */,
+				3F6C6B531BF036CD004DAA6E /* 远程仓库UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6C6B2E1BF036CD004DAA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6C6B431BF036CD004DAA6E /* LaunchScreen.storyboard in Resources */,
+				3F6C6B401BF036CD004DAA6E /* Assets.xcassets in Resources */,
+				3F6C6B3E1BF036CD004DAA6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6C6B471BF036CD004DAA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6C6B521BF036CD004DAA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6C6B2C1BF036CD004DAA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6C6B3B1BF036CD004DAA6E /* ViewController.m in Sources */,
+				3F6C6B381BF036CD004DAA6E /* AppDelegate.m in Sources */,
+				3F6C6B351BF036CD004DAA6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6C6B451BF036CD004DAA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6C6B4E1BF036CD004DAA6E /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6C6B501BF036CD004DAA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6C6B591BF036CD004DAA6E /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6C6B4B1BF036CD004DAA6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6C6B2F1BF036CD004DAA6E /* 远程仓库 */;
+			targetProxy = 3F6C6B4A1BF036CD004DAA6E /* PBXContainerItemProxy */;
+		};
+		3F6C6B561BF036CD004DAA6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6C6B2F1BF036CD004DAA6E /* 远程仓库 */;
+			targetProxy = 3F6C6B551BF036CD004DAA6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F6C6B3C1BF036CD004DAA6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6C6B3D1BF036CD004DAA6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6C6B411BF036CD004DAA6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6C6B421BF036CD004DAA6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F6C6B5B1BF036CD004DAA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F6C6B5C1BF036CD004DAA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F6C6B5E1BF036CD004DAA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "远程仓库/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F6C6B5F1BF036CD004DAA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "远程仓库/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F6C6B611BF036CD004DAA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "远程仓库Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/远程仓库.app/远程仓库";
+			};
+			name = Debug;
+		};
+		3F6C6B621BF036CD004DAA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "远程仓库Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/远程仓库.app/远程仓库";
+			};
+			name = Release;
+		};
+		3F6C6B641BF036CD004DAA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "远程仓库UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "远程仓库";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F6C6B651BF036CD004DAA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "远程仓库UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "远程仓库";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6C6B2B1BF036CD004DAA6E /* Build configuration list for PBXProject "远程仓库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6C6B5B1BF036CD004DAA6E /* Debug */,
+				3F6C6B5C1BF036CD004DAA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6C6B5D1BF036CD004DAA6E /* Build configuration list for PBXNativeTarget "远程仓库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6C6B5E1BF036CD004DAA6E /* Debug */,
+				3F6C6B5F1BF036CD004DAA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F6C6B601BF036CD004DAA6E /* Build configuration list for PBXNativeTarget "远程仓库Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6C6B611BF036CD004DAA6E /* Debug */,
+				3F6C6B621BF036CD004DAA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F6C6B631BF036CD004DAA6E /* Build configuration list for PBXNativeTarget "远程仓库UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6C6B641BF036CD004DAA6E /* Debug */,
+				3F6C6B651BF036CD004DAA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6C6B281BF036CD004DAA6E /* Project object */;
+}
